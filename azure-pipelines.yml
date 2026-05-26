@@ -1,0 +1,16 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'stage-1'
+
+- script: echo Add other tasks to build, test, and deploy your project.
+  displayName: 'stage-2'
+
+- script: echo "Welcome to DevOps"
+  displayName: "stage-3"
+
